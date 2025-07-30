@@ -1,3 +1,4 @@
+# Tufts TTS RT Internal training: Workflow for Building, Managing, and Running Containers
 Containers have become a transformative technology in HPC, offering significant advantages in portability, reproducibility, performance, isolation, and security. They are rapidly gaining adoption in scientific computing and are poised to play a pivotal role in the future of HPC. 
 
 In this virtual workshop provided by [Tufts Research Technology](https://it.tufts.edu/researchtechnology.tufts.edu), you’ll learn the best practices of pulling and running containers on Tufts HPC, and how to build your own containers with both Apptainer and Docker. 
