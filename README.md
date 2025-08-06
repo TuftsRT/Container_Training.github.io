@@ -26,3 +26,4 @@ Topics include:
 - [singularity run](hands-on/run.md)
 - [docker build](hands-on/build.md)
 - [github action](hands-on/github_action.md)
+- [container-mod](hands-on/container-mod.md)
