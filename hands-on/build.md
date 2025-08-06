@@ -1,7 +1,11 @@
 ## Dockerfile
 
 A Dockerfile is a plain-text file containing instructions that tell Docker how to build an image.
-Think of it as a recipe: - You start from a base image - You install software or copy files into it - You define how the container should run
+Think of it as a recipe:
+
+- You start from a base image
+- You install software or copy files into it
+- You define how the container should run
 
 ### FROM
 
@@ -42,11 +46,19 @@ COPY qe-7.4.1-ReleasePack.tar /opt/qe-7.4.1-ReleasePack.tar
 
 Another useful instruction is the `ENV` instruction. This allows the image developer to set environment variables inside the container runtime. For example, we usually need to set `PATH` or `LD_LIBRARY_PATH`.
 
+```
+ENV PATH="/opt/myprogram/bin:$PATH"
+```
+
 ### WORKDIR
 
 The `WORKDIR` instruction in a Dockerfile sets the current working directory for any subsequent instructions like `RUN` and `COPY`.
 
-### Example
+```
+WORKDIR /app
+```
+
+### Complete Example
 
 ```
 # Step 1: Base image
