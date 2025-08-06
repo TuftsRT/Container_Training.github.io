@@ -1,4 +1,4 @@
-title: "Building, managing, and running containers using Github actions and Dockerhub"
+title: "Building, managing, and running containers using GitHub Actions, DockerHub, and container-mod"
 description: "Container workshop provided by Tufts Research Technology"
 
 plugins:

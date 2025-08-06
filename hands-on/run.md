@@ -25,4 +25,5 @@ $ singularity exec pytorch_2.1.2-cuda11.8-cudnn8-runtime.sif python torch_demo.p
 ```
 
 [Next: docker build](build.md)
+
 [Previous: singularity shell](shell.md)
