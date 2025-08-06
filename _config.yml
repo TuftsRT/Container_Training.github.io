@@ -1,0 +1,12 @@
+title: "Building, managing, and running containers using Github actions and Dockerhub"
+description: "Container workshop provided by Tufts Research Technology"
+
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - hands-on/
+encoding: UTF-8
