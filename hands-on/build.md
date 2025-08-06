@@ -78,4 +78,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 CMD ["python", "app.py"]
 ```
 
-[Next: Github action](hands-on/github_action.md)
+[Next: Github action](github_action.md)
