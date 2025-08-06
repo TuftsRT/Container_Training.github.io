@@ -1,16 +1,15 @@
-# Tufts TTS RT Internal training: Workflow for Building, Managing, and Running Containers
-
 Containers have become a transformative technology in HPC, offering significant advantages in portability, reproducibility, performance, isolation, and security. They are rapidly gaining adoption in scientific computing and are poised to play a pivotal role in the future of HPC.
 
-In this training, you’ll learn the workflow Tufts RT used
+In this training, you’ll learn the workflow Tufts RT used to build, manage, pull and run containers on Tufts HPC.
+
 Topics include:
 
-- What are containers and why should we use them
-- How to use Singularity/Apptainer to pull and run containers
-- How to build containers with Docker and Apptainer
-- Environment modules (ngc and biocontainers) based on containers
-- Advanced topics namely multinode-MPI and GPU containers
-- Hands-on Demo
+- What are containers and why should we use them?
+- Container registry - Docker Hub.
+- How to use GitHub action to build docker containers?
+- How to use singularity/apptainer to pull containers?
+- How to use `container-mod` to pull containers, generate modules, and jupyter kernels?
+- How to build containers using your personal computers?
 
 ## Take home messages
 
