@@ -27,3 +27,20 @@ Topics include:
 - [docker build](hands-on/build.md)
 - [github action](hands-on/github_action.md)
 - [container-mod](hands-on/container-mod.md)
+
+## Recommended base images
+
+| Usage                    | Name              | Link                                           |
+| ------------------------ | ----------------- | ---------------------------------------------- |
+| Operation system         | ubuntu            | https://hub.docker.com/_/ubuntu                |
+| Operation system         | rockylinux        | https://hub.docker.com/_/rockylinux            |
+| Python                   | python            | https://hub.docker.com/_/python                |
+| R/Rstudio                | rocker/tidyverse  | https://hub.docker.com/r/rocker/tidyverse      |
+| R/Rstudio                | rocker/geospatial | https://hub.docker.com/r/rocker/geospatial     |
+| R/Rstudio                | rocker/cuda       | https://hub.docker.com/r/rocker/cuda           |
+| R/Rstudio                | rocker/ml         | https://hub.docker.com/r/rocker/ml             |
+| GPU                      | nvidia/cuda       | https://hub.docker.com/r/nvidia/cuda           |
+| Data Science             | pytorch           | https://hub.docker.com/r/pytorch/pytorch       |
+| Data Science             | tensorflow        | https://hub.docker.com/r/tensorflow/tensorflow |
+| Our organization account | tuftsttsrt        | https://hub.docker.com/u/tuftsttsrt            |
+
