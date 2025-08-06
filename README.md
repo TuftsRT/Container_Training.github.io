@@ -17,3 +17,10 @@ Topics include:
 - If you plan to use GPU containers, ensure compatibility between the CUDA version that was used to build the target application inside container and our GPU’s CUDA driver version.
 - When running containers that require GPU, make sure to include the `--nv` flag.
 - Remember to use `ncdu`, a helpful tool, to regularly check and clean up `$HOME/.apptainer` and `$HOME/.singularity` directories.
+
+## Hands-on
+
+- [Load modules](hands-on/load_modules.md)
+- [singularity pull](hands-on/pull.md)
+- [singularity shell](hands-on/shell.md)
+- [singularity run](hands-on/run.md)
