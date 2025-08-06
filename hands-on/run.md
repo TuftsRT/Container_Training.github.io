@@ -10,6 +10,10 @@ Download or build a container from a given URI.
 singularity exec [options] image command
 ```
 
+## Running GPU containers
+
+Singularity uses `--nv` to enable Nvidia GPU support.
+
 ## Example
 
 ### Blast
@@ -20,8 +24,10 @@ $ singularity exec blast_2.17.0.sif makeblastdb -in blastdb.faa -dbtype prot -ou
 
 ### Pytorch
 
+Since this is a container supporting Nvidia GPU, we need to add `--nv`.
+
 ```
-$ singularity exec pytorch_2.1.2-cuda11.8-cudnn8-runtime.sif python torch_demo.py
+$ singularity exec --nv pytorch_2.1.2-cuda11.8-cudnn8-runtime.sif python torch_demo.py
 ```
 
 [Next: docker build](build.md)
