@@ -16,4 +16,6 @@ To pull the blast image from [Docker hub](https://hub.docker.com/r/ncbi/blast/ta
 singularity pull docker://ncbi/blast:2.17.0
 ```
 
-- [singularity shell](hands-on/shell.md)
+[Next: singularity shell](shell.md)
+
+[Previous: Load modules](load_modules.md)

@@ -24,5 +24,5 @@ Topics include:
 - [singularity pull](hands-on/pull.md)
 - [singularity shell](hands-on/shell.md)
 - [singularity run](hands-on/run.md)
-- [singularity run](hands-on/build.md)
-- [singularity run](hands-on/github_action.md)
+- [docker build](hands-on/build.md)
+- [github action](hands-on/github_action.md)

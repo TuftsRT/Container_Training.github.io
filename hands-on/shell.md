@@ -28,4 +28,4 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 
 [Next: Run container](run.md)
 
-[Previous: Load modules](load_modules.md)
+[Previous: singularity](pull.md)
